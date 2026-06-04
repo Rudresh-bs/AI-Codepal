@@ -149,38 +149,6 @@ section[data-testid="stSidebar"] * { color: #ccc !important; }
 """, unsafe_allow_html=True)
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
-with st.sidebar:
-    st.markdown("### ⌨ CodePal Settings")
-    st.markdown("---")
-
-    api_key = st.secrets.get("GEMINI_API_KEY", "")
-
-    st.markdown("**Coding Mode**")
-    mode = st.selectbox(
-        "Mode",
-        [
-            "General Coding Assistant",
-            "Code Reviewer",
-            "Bug Fixer",
-            "Code Explainer",
-            "Algorithm Helper",
-        ],
-        label_visibility="collapsed"
-    )
-
-    st.markdown("**Language Focus**")
-    language = st.selectbox(
-        "Language",
-        ["Any Language", "Python", "JavaScript", "Java", "C++", "SQL", "React", "Other"],
-        label_visibility="collapsed"
-    )
-
-    st.markdown("**Response Style**")
-    style = st.radio(
-        "Style",
-        ["Detailed with explanation", "Code only", "Concise"],
-        label_visibility="collapsed"
-    )
 
     st.markdown("---")
     if st.button("🗑 Clear chat", use_container_width=True):
