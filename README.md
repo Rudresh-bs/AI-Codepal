@@ -32,49 +32,10 @@
 | 📖 Code Explainer | Break down code line by line in simple terms |
 | 🧠 Algorithm Helper | Solve DSA problems and analyze complexity |
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repo
-
-\```bash
-git clone https://github.com/Rudresh-bs/ai-codepal.git
-cd ai-codepal
-\```
-
-### 2. Install dependencies
-
-\```bash
-pip install -r requirements.txt
-\```
-
-### 3. Get your Gemini API key
-
-Sign up at [aistudio.google.com](https://aistudio.google.com) and create a **free** API key.
-
-### 4. Run the app
-
-\```bash
-streamlit run app.py
-\```
-
-Open [http://localhost:8501](http://localhost:8501), enter your API key in the sidebar, and start coding!
 
 ---
 
-## 🗂 Project Structure
-
-\```
-ai-codepal/
-├── app.py                  # Main Streamlit application
-├── requirements.txt        # Python dependencies
-├── .streamlit/
-│   └── config.toml         # Dark theme configuration
-├── .gitignore
-└── README.md
-\```
-
+##
 ---
 
 ## 🛠 Tech Stack
