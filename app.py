@@ -153,12 +153,7 @@ with st.sidebar:
     st.markdown("### ⌨ CodePal Settings")
     st.markdown("---")
 
-    api_key = st.text_input(
-        "Gemini API Key",
-        type="password",
-        placeholder="AIzaSy...",
-        help="Get your FREE key at aistudio.google.com"
-    )
+    api_key = st.secrets.get("GEMINI_API_KEY", "")
 
     st.markdown("**Coding Mode**")
     mode = st.selectbox(
