@@ -1,6 +1,6 @@
 # ⌨ CodePal — AI Coding Assistant
 
-> A dark-themed, terminal-inspired AI coding assistant built with **Streamlit** and the **Gemini API**.
+> Whether you're writing new code, hunting bugs, reviewing logic, or cracking algorithm problems, CodePal has a dedicated mode for it. With multi-language support spanning Python, JavaScript, Java, C++, SQL, React, and beyond — it adapts to whatever stack you're working with.
 
 [![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-codepal-29tqpxhf65md6dwww5lsd7.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-black?style=flat-square)
