@@ -72,4 +72,4 @@ MIT — free to use, fork, and build on.
 
 ---
 
-<p align="center">Built with ❤️ by <strong>Rudresh BS</strong> · <a href="https://github.com/Rudresh-bs">GitHub</a></p>
+
